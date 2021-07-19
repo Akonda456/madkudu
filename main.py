@@ -15,6 +15,7 @@ class Processor:
 
     def __init__(self, mode=MODE_LOAD):
         self.mode = mode
+        self.client = None
 
     def read_and_load(self, year, month):
         """
