@@ -1,4 +1,5 @@
 ##Overview
+
 In **load** mode, the script is made to download events.csv file, clean it and store data in an SQL db.
  
  In **compute** mode, the plan is to make queries on the db to retrieve data expected by the user
